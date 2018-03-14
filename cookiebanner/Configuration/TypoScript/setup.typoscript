@@ -10,28 +10,8 @@ page {
         cookieconsentjs.forceOnTop = 1
     }
 
-    headerData.14338 = TEXT
-    headerData.14338.value (
-        <script>
-            window.addEventListener("load", function(){
-            window.cookieconsent.initialise({
-            "palette": {
-                "popup": {
-                "background": "{$colorBG}",
-                "text": "{$colorText}"
-                },
-                "button": {
-                "background": "{$colorButton}",
-                "text": "{$colorTextButton}"
-                }
-            },
-            "content": {
-                "message": "{$bannerText}",
-                "dismiss": "{$dismissText}",
-                "link": "{$moreText}",
-                "href": "{$moreLink}"
-            }
-            })});
-        </script>
+    footerData.14338 = TEXT
+    footerData.14338.value (
+        <script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"{$colorBG}",text:"{$colorText}"},button:{background:"{$colorButton}",text:"{$colorTextButton}"}},content:{message:"{$bannerText}",dismiss:"{$dismissText}",link:"{$moreText}",href:"{$moreLink}"}})});</script>
     )
 }
