@@ -1,0 +1,21 @@
+privateDir = EXT:cookiebanner/Resources/Private
+publicDir = EXT:cookiebanner/Resources/Public
+
+# cat=cookiebanner; type=string; label= Banner-Text : The Banner-Text
+bannerText = Diese Webseite verwendet Cookies, um die Bedienfreundlichkeit zu erhöhen
+# cat=cookiebanner; type=string; label= Dismiss-Text : The Button Text
+dismissText = OK
+# cat=cookiebanner; type=string; label= ReadMore-Text : Text for ReadMore
+moreText = Mehr lesen
+# cat=cookiebanner; type=string; label= ReadMore-Link : Link vor Readmore
+moreLink = https://www.jseidl.at/datenschutz
+
+# cat=cookiebanner; type=string; label= Farbe-Text (Button) : The Button Text Color
+colorTextButton = #780c0d
+# cat=cookiebanner; type=string; label= Farbe-Hintergund (Button) : The Button Background
+colorButton = #ffffff
+
+# cat=cookiebanner; type=string; label= Farbe Text : Text Color
+colorText = #ffffff
+# cat=cookiebanner; type=string; label= Farbe-Hintergrund (Button) : The Backgroundcolor
+colorBG = #780c0d

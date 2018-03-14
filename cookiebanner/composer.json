@@ -1,0 +1,19 @@
+{
+    "name": "cookiebanner/cookiebanner",
+    "type": "typo3-cms-extension",
+    "description": "Adds a Cookieconsent-banner",
+    "authors": [
+        {
+            "name": "Julian Seidl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cookiebanner\\Cookiebanner\\": "Classes"
+        }
+    }
+}

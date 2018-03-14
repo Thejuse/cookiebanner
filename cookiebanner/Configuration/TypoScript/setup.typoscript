@@ -1,0 +1,37 @@
+page = PAGE
+
+page {
+    includeCSSLibs {
+        cookieconsent = {$publicDir}/Css/cookieconsent.min.css
+        cookieconsent.forceOnTop = 1
+    }
+    includeJSLibs {
+        cookieconsentjs = {$publicDir}/JavaScript/cookieconsent.min.js
+        cookieconsentjs.forceOnTop = 1
+    }
+
+    headerData.9999 = TEXT
+    headerData.9999.value (
+        <script>
+            window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                "background": "{$colorBG}",
+                "text": "{$colorText}"
+                },
+                "button": {
+                "background": "{$colorButton}",
+                "text": "{$colorTextButton}"
+                }
+            },
+            "content": {
+                "message": "{$bannerText}",
+                "dismiss": "{$dismissText}",
+                "link": "{$moreText}",
+                "href": "{$moreLink}"
+            }
+            })});
+        </script>
+    )
+}
