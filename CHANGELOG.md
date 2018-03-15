@@ -7,6 +7,7 @@
 ### Changed
 * headerData to footerData   
 * minifyed Javascript code
+* ConstantNames -> Added Prefix
 
 ## 1.0.1
 ### Changed

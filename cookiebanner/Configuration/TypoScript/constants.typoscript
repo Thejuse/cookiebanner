@@ -3,9 +3,9 @@ cookiebanner.privateDir = EXT:cookiebanner/Resources/Private
 # cat=cookiebanner : Advanced; type=string; label= Public Directory : Diractory for the Public Folder
 cookiebanner.publicDir = EXT:cookiebanner/Resources/Public
 
-# cat=cookiebanner : Advanced; type=string; label= CSS Force Top : Force the CSS to be Top
+# cat=cookiebanner : Advanced; type=boolean; label= CSS Force Top : Force the CSS to be Top
 cookiebanner.cssTop = 1
-# cat=cookiebanner : Advanced; type=string; label= JavaScript Force Top : Force the JavaScript to be Top
+# cat=cookiebanner : Advanced; type=boolean; label= JavaScript Force Top : Force the JavaScript to be Top
 cookiebanner.jsTop = 1
 
 # cat=cookiebanner; type=string; label= Banner-Text : Change the text of banner
