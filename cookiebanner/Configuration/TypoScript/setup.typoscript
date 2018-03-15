@@ -2,36 +2,16 @@ page = PAGE
 
 page {
     includeCSSLibs {
-        cookieconsent = {$publicDir}/Css/cookieconsent.min.css
-        cookieconsent.forceOnTop = 1
+        cookieconsent = {$cookiebanner.publicDir}/Css/cookieconsent.min.css
+        cookieconsent.forceOnTop = {$cookiebanner.cssTop}
     }
     includeJSLibs {
-        cookieconsentjs = {$publicDir}/JavaScript/cookieconsent.min.js
-        cookieconsentjs.forceOnTop = 1
+        cookieconsentjs = {$cookiebanner.publicDir}/JavaScript/cookieconsent.min.js
+        cookieconsentjs.forceOnTop = {$cookiebanner.jsTop}
     }
 
-    headerData.14338 = TEXT
-    headerData.14338.value (
-        <script>
-            window.addEventListener("load", function(){
-            window.cookieconsent.initialise({
-            "palette": {
-                "popup": {
-                "background": "{$colorBG}",
-                "text": "{$colorText}"
-                },
-                "button": {
-                "background": "{$colorButton}",
-                "text": "{$colorTextButton}"
-                }
-            },
-            "content": {
-                "message": "{$bannerText}",
-                "dismiss": "{$dismissText}",
-                "link": "{$moreText}",
-                "href": "{$moreLink}"
-            }
-            })});
-        </script>
+    footerData.14338 = TEXT
+    footerData.14338.value (
+        <script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"{$cookiebanner.colorBG}",text:"{$cookiebanner.colorText}"},button:{background:"{$cookiebanner.colorButton}",text:"{$cookiebanner.colorTextButton}"}},content:{message:"{$cookiebanner.bannerText}",dismiss:"{$cookiebanner.dismissText}",link:"{$cookiebanner.moreText}",href:"{$cookiebanner.moreLink}"}})});</script>
     )
 }
