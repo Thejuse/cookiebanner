@@ -4,7 +4,7 @@
 ## Getting Started
 ### Download
 #### Typo3 (recomended)
-1. Go to zour Extension-Manager
+1. Go to your Extension-Manager
 2. Go to Download-Extensions
 3. Update your Extension-Manager if needed
 4. Search for `cookiebanner`
