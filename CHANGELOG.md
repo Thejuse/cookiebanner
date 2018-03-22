@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0
+### Added
+* Positions of cookieconsent
+* Subcategorys for constants
+* Layouts of cookieconsent
+
 ## 1.1.0
 ### Added
 * Changelog.md
