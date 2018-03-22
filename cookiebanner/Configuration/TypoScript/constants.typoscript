@@ -1,9 +1,19 @@
+################################
+#####                       ####
+#####  Custom Subcategorys  ####
+#####                       ####
+################################
 # customsubcategory=paths=Paths
 # customsubcategory=config=Config
 # customsubcategory=content=Content
 # customsubcategory=design=Design
 # customsubcategory=colors=Colors
 
+################################
+#####                       ####
+#####       Constants       ####
+#####                       ####
+################################
 cookiebanner{
     # cat=cookiebanner:Advanced/paths; type=string; label= Private Directory : Diractory for the Private Folder
     privateDir = EXT:cookiebanner/Resources/Private
