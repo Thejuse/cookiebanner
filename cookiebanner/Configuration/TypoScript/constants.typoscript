@@ -20,18 +20,18 @@ cookiebanner{
     # cat=cookiebanner:Advanced/paths; type=string; label= Public Directory : Diractory for the Public Folder
     publicDir = EXT:cookiebanner/Resources/Public
 
-    # cat=cookiebanner:Advanced/config; type=boolean; label= CSS Force Top : Force the CSS to be Top
+    # cat=cookiebanner:Advanced/config; type=boolean; label= CSS Force Top : Force the CSS to be top
     cssTop = 1
-    # cat=cookiebanner:Advanced/config; type=boolean; label= JavaScript Force Top : Force the JavaScript to be Top
+    # cat=cookiebanner:Advanced/config; type=boolean; label= JavaScript Force Top : Force the JavaScript to be top
     jsTop = 1
 
     # cat=cookiebanner/content; type=string; label= Banner-Text : Change the text of banner
     bannerText = Diese Webseite verwendet Cookies, um die Bedienfreundlichkeit zu erhöhen
-    # cat=cookiebanner/content; type=string; label= Dismiss-Text : Change the text of Dismiss Button
+    # cat=cookiebanner/content; type=string; label= Dismiss-Text : Change the text of dismiss button
     dismissText = OK
-    # cat=cookiebanner/content; type=string; label= ReadMore-Text : Change the text of the Readmore
+    # cat=cookiebanner/content; type=string; label= ReadMore-Text : Change the text of the readmore
     moreText = Mehr lesen
-    # cat=cookiebanner/content; type=string; label= ReadMore-Link : Change the Link of the Readmore
+    # cat=cookiebanner/content; type=string; label= ReadMore-Link : Change the link of the readmore
     moreLink = https://www.jseidl.at/datenschutz
 
     # cat=cookiebanner/design; type=options[Bottom=bottom,Top=top,Left=left,Right=right]; label= Position : Position of the banner
@@ -39,13 +39,13 @@ cookiebanner{
     # cat=cookiebanner/design; type=options[Block=block,Classic=classic,Edgeless=edgeless]; label= Layout : Change the layout of the banner
     bannerLayout = block
 
-    # cat=cookiebanner/colors; type=string; label= Color-Button-Text : The Button Text Color
+    # cat=cookiebanner/colors; type=string; label= Button Text Color : Change the background-color of the button
     colorTextButton = #780c0d
-    # cat=cookiebanner/colors; type=string; label= Color-Button Background : Change the Button Background color
+    # cat=cookiebanner/colors; type=string; label= Button Background-Color: Change the text-color of the button
     colorButton = #ffffff
 
-    # cat=cookiebanner/colors; type=string; label= Color Text : Change the color of the Text
+    # cat=cookiebanner/colors; type=string; label= Banner Text Color : Change the text-color of the banner
     colorText = #ffffff
-    # cat=cookiebanner/colors; type=string; label= Color Background : Change the color of the Background
+    # cat=cookiebanner/colors; type=string; label= Banner Background-Color : Change the background-color of the banner
     colorBG = #780c0d
 }
