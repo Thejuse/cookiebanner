@@ -15,37 +15,37 @@
 #####                       ####
 ################################
 cookiebanner{
-    # cat=cookiebanner:Advanced/paths; type=string; label= Private Directory : Diractory for the Private Folder
+    # cat=cookiebanner:Advanced/paths; type=string; label= Private Path : Path to private folder of extension
     privateDir = EXT:cookiebanner/Resources/Private
-    # cat=cookiebanner:Advanced/paths; type=string; label= Public Directory : Diractory for the Public Folder
+    # cat=cookiebanner:Advanced/paths; type=string; label= Public Path : Path to public folder of extension
     publicDir = EXT:cookiebanner/Resources/Public
 
-    # cat=cookiebanner:Advanced/config; type=boolean; label= CSS Force Top : Force the CSS to be top
+    # cat=cookiebanner:Advanced/config; type=boolean; label= CSS Force Top : Force the css to be on the top
     cssTop = 1
-    # cat=cookiebanner:Advanced/config; type=boolean; label= JavaScript Force Top : Force the JavaScript to be top
+    # cat=cookiebanner:Advanced/config; type=boolean; label= JavaScript Force Top : Force the JavaScript to be on the top
     jsTop = 1
 
-    # cat=cookiebanner/content; type=string; label= Banner-Text : Change the text of banner
+    # cat=cookiebanner/content; type=string; label= Banner-Text : Text of the Banner
     bannerText = Diese Webseite verwendet Cookies, um die Bedienfreundlichkeit zu erhöhen
-    # cat=cookiebanner/content; type=string; label= Dismiss-Text : Change the text of dismiss button
+    # cat=cookiebanner/content; type=string; label= Dismiss-Text : Text of the dismiss button
     dismissText = OK
-    # cat=cookiebanner/content; type=string; label= ReadMore-Text : Change the text of the readmore
+    # cat=cookiebanner/content; type=string; label= ReadMore-Text : Text of the more link
     moreText = Mehr lesen
-    # cat=cookiebanner/content; type=string; label= ReadMore-Link : Change the link of the readmore
+    # cat=cookiebanner/content; type=string; label= ReadMore-Link : URL of the more link
     moreLink = https://www.jseidl.at/datenschutz
 
     # cat=cookiebanner/design; type=options[Bottom=bottom,Top=top,Left=left,Right=right]; label= Position : Position of the banner
     bannerPosition = bottom
-    # cat=cookiebanner/design; type=options[Block=block,Classic=classic,Edgeless=edgeless]; label= Layout : Change the layout of the banner
+    # cat=cookiebanner/design; type=options[Block=block,Classic=classic,Edgeless=edgeless]; label= Layout : Layout of the banner
     bannerLayout = block
 
-    # cat=cookiebanner/colors; type=string; label= Button Text Color : Change the background-color of the button
+    # cat=cookiebanner/colors; type=string; label= Button Text Color : Background-color of the button
     colorTextButton = #780c0d
-    # cat=cookiebanner/colors; type=string; label= Button Background-Color: Change the text-color of the button
+    # cat=cookiebanner/colors; type=string; label= Button Background-Color: Text-color of the button
     colorButton = #ffffff
 
-    # cat=cookiebanner/colors; type=string; label= Banner Text Color : Change the text-color of the banner
+    # cat=cookiebanner/colors; type=string; label= Banner Text Color : Text-color of the banner
     colorText = #ffffff
-    # cat=cookiebanner/colors; type=string; label= Banner Background-Color : Change the background-color of the banner
+    # cat=cookiebanner/colors; type=string; label= Banner Background-Color : Background-color of the banner
     colorBG = #780c0d
 }
