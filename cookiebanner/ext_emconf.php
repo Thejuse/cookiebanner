@@ -1,7 +1,7 @@
 <?php
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Cookiebanner',
-    'description' => 'Adds a Cookieconsent-banner',
+    'description' => 'Cookieconsent-Banner for DSGVO/GDPR',
     'category' => 'plugin',
     'author' => 'Julian Seidl',
     'author_email' => 'hi@jseidl.at',
@@ -9,7 +9,7 @@ $EM_CONF[$_EXTKEY] = [
     'internal' => '',
     'uploadfolder' => '0',
     'createDirs' => '',
-    'clearCacheOnLoad' => 0,
+    'clearCacheOnLoad' => 1,
     'version' => '1.2.0',
     'constraints' => [
         'depends' => [
