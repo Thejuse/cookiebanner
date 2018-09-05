@@ -39,9 +39,9 @@ cookiebanner{
     # cat=cookiebanner/design; type=options[Block=block,Classic=classic,Edgeless=edgeless]; label= Layout : Layout of the banner
     bannerLayout = block
 
-    # cat=cookiebanner/colors; type=string; label= Button Text Color : Background-color of the button
+    # cat=cookiebanner/colors; type=string; label= Button Text Color :  Text-color of the button
     colorTextButton = #780c0d
-    # cat=cookiebanner/colors; type=string; label= Button Background-Color: Text-color of the button
+    # cat=cookiebanner/colors; type=string; label= Button Background-Color : Background-color of the button
     colorButton = #ffffff
 
     # cat=cookiebanner/colors; type=string; label= Banner Text Color : Text-color of the banner
