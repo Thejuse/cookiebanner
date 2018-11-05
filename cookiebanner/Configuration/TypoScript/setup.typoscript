@@ -12,6 +12,6 @@ page {
 
     footerData.14338 = TEXT
     footerData.14338.value (
-        <script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"{$cookiebanner.colorBG}",text:"{$cookiebanner.colorText}"},button:{background:"{$cookiebanner.colorButton}",text:"{$cookiebanner.colorTextButton}"}},content:{message:"{$cookiebanner.bannerText}",dismiss:"{$cookiebanner.dismissText}",link:"{$cookiebanner.moreText}",href:"{$cookiebanner.moreLink}"},position:"{$cookiebanner.bannerPosition}",theme:"{$cookiebanner.bannerLayout}"})});</script>
+        <script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"{$cookiebanner.colorBG}",text:"{$cookiebanner.colorText}"},button:{background:"{$cookiebanner.colorButton}",text:"{$cookiebanner.colorTextButton}"}},content:{message:"{$cookiebanner.bannerText}",dismiss:"{$cookiebanner.dismissText}",link:"{$cookiebanner.moreText}",href:"{$cookiebanner.moreLink}",target:"{$cookiebanner.target}"},position:"{$cookiebanner.bannerPosition}",theme:"{$cookiebanner.bannerLayout}"})});</script>
     )
 }
