@@ -33,6 +33,8 @@ cookiebanner{
     moreText = Mehr lesen
     # cat=cookiebanner/content; type=string; label= ReadMore-Link : URL of the more link
     moreLink = https://www.jseidl.at/datenschutz
+    # cat=cookiebanner/content; type=options[Blank=_blank,Self=_self]; label= Target : Target for ReadMore-Link Link
+    target = _blank
 
     # cat=cookiebanner/design; type=options[Bottom=bottom,Top=top,Left=left,Right=right]; label= Position : Position of the banner
     bannerPosition = bottom

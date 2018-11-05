@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.3.0] - 2018-11-05
+### Added
+- Target for more link
+
 ## [1.2.4] - 2018-10-02
 ### Updated
 - Tested for Typo3 9 LTS

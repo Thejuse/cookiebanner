@@ -1,6 +1,5 @@
 # TYPO3 Extension cookiebanner
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jseidlAT/5.99)
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Thejuse/cookiebanner/blob/master/LICENSE)
 > TYPO3 Extension for adding a [CookieConsent](https://cookieconsent.insites.com) Banner
 
 ## Features
