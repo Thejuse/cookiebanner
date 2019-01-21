@@ -25,6 +25,9 @@ cookiebanner{
     # cat=cookiebanner:Advanced/config; type=boolean; label= JavaScript Force Top : Force the JavaScript to be on the top
     jsTop = 1
 
+    # cat=cookiebanner/config; type=boolean; label= Cookiebanner Enabled : Check if you want to enable it  
+    enabled = 1
+
     # cat=cookiebanner/content; type=string; label= Banner-Text : Text of the Banner
     bannerText = Diese Webseite verwendet Cookies, um die Bedienfreundlichkeit zu erhöhen
     # cat=cookiebanner/content; type=string; label= Dismiss-Text : Text of the dismiss button
