@@ -44,9 +44,4 @@ page {
             )
         }
     }
-
-    footerData.14338 = TEXT
-    footerData.14338.value (
-        
-    )
 }
