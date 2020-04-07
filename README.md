@@ -38,7 +38,7 @@ Download and install the extension with the extension manager module.
 
 | cookiebanner | TYPO3      | PHP       | Support/Development                  |
 | ------------ | ---------- | --------- | ------------------------------------ |
-| 1.x          | 8.7 - 9.x  | 7.0 - 7.2 | Features, Bugfixes, Security updates |
+| 1.x          | 8.7 - 9.x  | 7.0 - 7.4 | Features, Bugfixes, Security updates |
 
 ### Changelog
 
