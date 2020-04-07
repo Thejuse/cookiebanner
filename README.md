@@ -4,7 +4,7 @@
 
 ## Features
 - [CookieConsent](https://cookieconsent.insites.com) Banner
-- TYPO3 8 & TYPO3 9
+- TYPO3 8, 9 & TYPO3 10
 - full customizable
 - documentation
 
@@ -51,4 +51,4 @@ cookiebanner uses semantic versioning which basically means for you, that
 - **minor updates** (e.g. 1.0.0 => 1.1.0) includes new features and smaller tasks without breaking changes.
 - **major updates** (e.g. 1.0.0 => 2.0.0) breaking changes wich can be refactorings, features or bugfixes.
 
-&copy; 2018-2019 [Julian Seidl](https://www.jseidl.at)
+&copy; 2018-2020 [Julian Seidl](https://www.jseidl.at)
