@@ -22,13 +22,13 @@ Download and install the extension with the extension manager module.
 
 1. Activate Extension in Extensionmanager
 2. Include the static TypoScript of the extension 
-3. Edit Preferencec in the Constants-Editor
+3. Edit Preferences in the Constants-Editor
 
 ## Help supporting further development
 
-**Why?** The extension is a tool for GDPR/DSGVO and i allways try to update it to the latest possible TYPO3 version.
+**Why?** The extension is a tool for GDPR/DSGVO and i always try to update it to the latest possible TYPO3 version.
 
-**HOW?** Ther are multiple ways to support the further development
+**HOW?** There are multiple ways to support the further development
 - **PayPal** Support me on [paypal.com](https://www.paypal.me/jseidlAT)
 - **BuyMeACoffee** Support me on [buymeacoffee.com](https://www.buymeacoffee.com/jseidl)
 
